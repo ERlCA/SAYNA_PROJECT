@@ -1,0 +1,31 @@
+.container {
+  width: 90%;
+  padding: 40px 10px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+#name {
+  margin: 0 auto 10px;
+  width: 90%;
+}
+/* center element */
+#customname {
+  display: block;
+  width: 150px;
+  margin: 0 auto 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+#customname:focus {
+  border: 1px solid #777;
+  outline: blue;
+}
+
+#name label,
+#customname {
+  display: block;
+}
+
+button {
+  padding: 10px;
+}
